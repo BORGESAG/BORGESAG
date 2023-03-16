@@ -1,6 +1,6 @@
 - 👋 Hi, I’m BORGES
 - 👀 I’m interested in automations
-- 🌱 I’m currently learning IaC; Python and Groovy language; cyber security
+- 🌱 I’m currently learning IaC; Python and Groovy language; Cyber Security (Offensive and Defensive techniques)
 - ✨[>] Let's play
 
 <!---
