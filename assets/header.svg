@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">BORGES</title>
+  <desc id="desc">Automation, DevSecOps, site reliability, cloud security, digital forensics and local AI</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b16"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.55" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.3 0;0.3 0;-0.3 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0.25"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1e293b" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.9"/>
+    </linearGradient>
+    <mask id="gridMask"><rect width="1200" height="320" fill="url(#fade)"/></mask>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)" mask="url(#gridMask)"/>
+
+    <!-- scan line -->
+    <rect x="0" y="-60" width="1200" height="60" fill="url(#scan)">
+      <animate attributeName="y" values="-60;320" dur="6s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- header comment -->
+    <text x="80" y="78" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="18" letter-spacing="2">// automation · security · reliability</text>
+
+    <!-- name -->
+    <text x="76" y="168" fill="url(#neon)" filter="url(#glow)" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="96" font-weight="800" letter-spacing="22">BORGES</text>
+
+    <!-- terminal: prompt + rotating focus areas, typed in -->
+    <g font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="26">
+      <text x="80" y="232" fill="#22d3ee" textLength="218" lengthAdjust="spacingAndGlyphs">borges@lab:~$</text>
+
+      <clipPath id="t1"><rect x="306" y="200" height="44" width="0"><animate attributeName="width" values="0;531;531;0;0" keyTimes="0;0.08;0.15;0.16;1" dur="18s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+      <clipPath id="t2"><rect x="306" y="200" height="44" width="0"><animate attributeName="width" values="0;343;343;0;0" keyTimes="0;0.08;0.15;0.16;1" dur="18s" begin="3s" repeatCount="indefinite"/></rect></clipPath>
+      <clipPath id="t3"><rect x="306" y="200" height="44" width="0"><animate attributeName="width" values="0;452;452;0;0" keyTimes="0;0.08;0.15;0.16;1" dur="18s" begin="6s" repeatCount="indefinite"/></rect></clipPath>
+      <clipPath id="t4"><rect x="306" y="200" height="44" width="0"><animate attributeName="width" values="0;421;421;0;0" keyTimes="0;0.08;0.15;0.16;1" dur="18s" begin="9s" repeatCount="indefinite"/></rect></clipPath>
+      <clipPath id="t5"><rect x="306" y="200" height="44" width="0"><animate attributeName="width" values="0;562;562;0;0" keyTimes="0;0.08;0.15;0.16;1" dur="18s" begin="12s" repeatCount="indefinite"/></rect></clipPath>
+      <clipPath id="t6"><rect x="306" y="200" height="44" width="0"><animate attributeName="width" values="0;452;452;0;0" keyTimes="0;0.08;0.15;0.16;1" dur="18s" begin="15s" repeatCount="indefinite"/></rect></clipPath>
+
+      <g fill="#e2e8f0">
+        <text x="306" y="232" textLength="531" lengthAdjust="spacingAndGlyphs" clip-path="url(#t1)">automation &amp;&amp; platform engineering</text>
+        <text x="306" y="232" textLength="343" lengthAdjust="spacingAndGlyphs" clip-path="url(#t2)">devsecops --shift-left</text>
+        <text x="306" y="232" textLength="452" lengthAdjust="spacingAndGlyphs" clip-path="url(#t3)">site reliability --slo-driven</text>
+        <text x="306" y="232" textLength="421" lengthAdjust="spacingAndGlyphs" clip-path="url(#t4)">cloud security --zero-trust</text>
+        <text x="306" y="232" textLength="562" lengthAdjust="spacingAndGlyphs" clip-path="url(#t5)">digital forensics --chain-of-custody</text>
+        <text x="306" y="232" textLength="452" lengthAdjust="spacingAndGlyphs" clip-path="url(#t6)">local ai --on-my-own-hardware</text>
+      </g>
+
+      <!-- cursor: follows the typed text of each line -->
+      <rect x="310" y="210" width="14" height="28" fill="#f472b6">
+        <animate attributeName="x" dur="18s" repeatCount="indefinite"
+          values="310;843;843;310;310;655;655;310;310;764;764;310;310;733;733;310;310;874;874;310;310;764;764;310;310"
+          keyTimes="0;0.08;0.15;0.16;0.1667;0.2467;0.3167;0.3267;0.3333;0.4133;0.4833;0.4933;0.5;0.58;0.65;0.66;0.6667;0.7467;0.8167;0.8267;0.8333;0.9133;0.9833;0.9933;1"/>
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- status line -->
+    <g font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#64748b">
+      <circle cx="86" cy="281" r="5" fill="#34d399">
+        <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="100" y="286">online   ·   mode: automate-everything   ·   policy: least-privilege   ·   uptime: ∞</text>
+    </g>
+
+    <!-- reactor: rotating rings -->
+    <g transform="translate(1010 160)">
+      <circle r="120" fill="url(#halo)"/>
+      <circle r="96" fill="none" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="2" stroke-dasharray="4 10">
+        <animateTransform attributeName="transform" type="rotate" values="0;360" dur="30s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="76" fill="none" stroke="#a78bfa" stroke-opacity="0.8" stroke-width="3" stroke-dasharray="90 40 20 40">
+        <animateTransform attributeName="transform" type="rotate" values="360;0" dur="14s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="54" fill="none" stroke="#f472b6" stroke-opacity="0.7" stroke-width="2" stroke-dasharray="2 6">
+        <animateTransform attributeName="transform" type="rotate" values="0;360" dur="9s" repeatCount="indefinite"/>
+      </circle>
+      <polygon points="0,-30 26,-15 26,15 0,30 -26,15 -26,-15" fill="none" stroke="#22d3ee" stroke-width="2" filter="url(#glow)">
+        <animateTransform attributeName="transform" type="rotate" values="0;360" dur="20s" repeatCount="indefinite"/>
+      </polygon>
+      <circle r="9" fill="#e0f2fe" filter="url(#glow)">
+        <animate attributeName="r" values="7;11;7" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <!-- orbiting node -->
+      <circle r="5" fill="#34d399" filter="url(#glow)">
+        <animateMotion dur="7s" repeatCount="indefinite" path="M76,0 A76,76 0 1,1 -76,0 A76,76 0 1,1 76,0"/>
+      </circle>
+    </g>
+
+    <rect x="0.5" y="0.5" width="1199" height="319" rx="18" fill="none" stroke="#1e293b"/>
+  </g>
+</svg>
