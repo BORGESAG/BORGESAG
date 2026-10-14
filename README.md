@@ -107,6 +107,12 @@
   </tr>
 </table>
 
+## 🤝 Open source contributions
+
+| Project | Contribution | Status |
+|---|---|---|
+| [Twigpine/openclaude](https://github.com/Twigpine/openclaude) | [`/sessions`: resume or delete saved conversations](https://github.com/Twigpine/openclaude/pull/2262), plus two session storage fixes found while testing it | ✅ Merged |
+
 ## 💡 What I believe
 
 ```diff
